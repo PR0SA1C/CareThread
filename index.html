@@ -219,12 +219,17 @@
   }
 
   @media (max-width: 760px){
-    .hero-grid, .frame-grid{ grid-template-columns: 1fr; }
-    .hero{ padding-top: 56px; }
-    .hero h1{ font-size: 32px; max-width: none; }
+    .hero-grid, .frame-grid{ grid-template-columns: 1fr; gap: 40px; }
+    .hero{ padding-top: 40px; padding-bottom: 40px; }
+    .hero h1{ font-size: 36px; max-width: none; }
+    .hero p.sub{ font-size: 16px; max-width: none; }
+    .frame{ padding: 40px 0; }
+    .frame h2{ font-size: 24px; max-width: none; }
+    .features{ padding: 20px 0 50px; }
     .features-list{ grid-template-columns: 1fr; gap: 32px; }
     .signup{ flex-direction: column; max-width: none; }
-    .wrap{ padding: 0 22px; }
+    .wrap{ padding: 0 20px; }
+    footer .wrap{ flex-direction: column; gap: 16px; align-items: flex-start; }
   }
 
   @media (prefers-reduced-motion: no-preference){

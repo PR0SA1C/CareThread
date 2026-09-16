@@ -9,14 +9,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg: #F6F4EF;
-    --bg-tint: #E9EDE7;
-    --sage: #5C8374;
-    --sage-deep: #3F5F52;
-    --ink: #29352F;
-    --ink-soft: #5B6B62;
-    --gold: #B99A55;
-    --line: #D8D3C6;
+    --bg: #FFFFFF;
+    --bg-tint: #F0F4F8;
+    --sage: #1062FE;
+    --sage-deep: #0043CE;
+    --ink: #051A2E;
+    --ink-soft: #475867;
+    --gold: #0F62FE;
+    --line: #DDE1E6;
   }
 
   *{ box-sizing: border-box; }
@@ -256,24 +256,24 @@
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
-      <h1>One thread, through every doctor you'll ever see.</h1>
-      <p class="sub">Your health history shouldn't reset at every appointment. CareThread keeps your symptoms, medications, and visit notes in one place — so you can hand any doctor your story in seconds, not repeat it from memory.</p>
+      <h1>Your entire health history, connected.</h1>
+      <p class="sub">Your medical records shouldn't be scattered across a dozen hospitals. CareThread uses your ABHA ID to instantly pull your prescriptions, scans, and blood reports into one secure, AI-powered timeline.</p>
 
 
     </div>
 
     <div class="thread-visual" aria-hidden="true">
       <svg viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M30 60 C 120 60, 100 150, 190 150 S 260 240, 350 240" stroke="#B7C7BC" stroke-width="1.5" fill="none"/>
+        <path d="M30 60 C 120 60, 100 150, 190 150 S 260 240, 350 240" stroke="var(--line)" stroke-width="1.5" fill="none"/>
 
         <!-- milestones (green, on the curve, equal arc-length spacing) -->
-        <circle class="pulse" cx="30" cy="60" r="5" fill="#5C8374"/>
-        <circle cx="190" cy="150" r="5" fill="#5C8374"/>
-        <circle class="pulse" cx="350" cy="240" r="5" fill="#3F5F52"/>
+        <circle class="pulse" cx="30" cy="60" r="5" fill="var(--sage)"/>
+        <circle cx="190" cy="150" r="5" fill="var(--sage)"/>
+        <circle class="pulse" cx="350" cy="240" r="5" fill="var(--sage-deep)"/>
 
         <!-- entries between milestones (gold, on the curve, equal arc-length spacing) -->
-        <circle cx="110" cy="105" r="4" fill="#B99A55"/>
-        <circle cx="270" cy="195" r="4" fill="#B99A55"/>
+        <circle cx="110" cy="105" r="4" fill="var(--gold)"/>
+        <circle cx="270" cy="195" r="4" fill="var(--gold)"/>
 
 
       </svg>
@@ -283,11 +283,11 @@
 
 <section class="frame">
   <div class="wrap frame-grid">
-    <h2>Your records live in a dozen different portals. Your memory shouldn't have to be the thirteenth.</h2>
+    <h2>Built on the Ayushman Bharat Digital Mission. Powered by AI.</h2>
     <div class="frame-copy">
-      <p>Every new doctor asks the same questions. What medications are you on. When did the symptoms start. Has this happened before. <strong>You end up reconstructing your own medical history from memory, in a waiting room, under time pressure.</strong></p>
-      <p>CareThread is a running timeline you keep yourself — symptoms, prescriptions, appointments, and notes, logged as they happen. When you walk into a new appointment, you hand over a clear, plain-language summary instead of starting from zero.</p>
-      <p>It starts as a simple personal tool. <strong>The idea behind it is bigger</strong> — a layer of continuity that patients own, that could eventually connect across providers and catch the patterns no single doctor has time to see.</p>
+      <p>CareThread is a unified ecosystem designed for both patients and healthcare providers in India. By integrating directly with the ABDM sandbox, we bypass manual KYC and link your records instantly using your ABHA ID.</p>
+      <p>For patients, it means true data ownership. For hospitals and doctors, it means access to a unified, AI-summarized patient history the moment you grant consent.</p>
+      <p><strong>The result:</strong> A seamless flow of data between Radiology, Pathology, and the treating physician, without the patient ever having to carry a physical file again.</p>
     </div>
   </div>
 </section>
@@ -303,19 +303,20 @@
       </div>
       <div class="feature">
         <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3.2 2"/></svg>
-        <h3>Never forget again</h3>
-        <p>Past visits, medicines, and reports are all saved and ready. Nothing to remember, nothing to dig up.</p>
+        <h3>AI Health Trends</h3>
+        <p>We analyze your past blood reports and scans using AI to draw long-term health trends automatically.</p>
       </div>
       <div class="feature">
         <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 13h3.5l2-5 3 10 2-7 1.5 3H21"/></svg>
-        <h3>Your health, all in one place</h3>
-        <p>Sync your fitness tracker and see it right alongside your test results — the full picture, not just one piece.</p>
+        <h3>Wearable Integration</h3>
+        <p>Sync your fitness trackers to compare daily biomarkers like heart rate directly against your clinical lab results.</p>
       </div>
       <div class="feature">
         <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="11" width="14" height="9" rx="1.5"/><path d="M8 11V7.5a4 4 0 0 1 8 0V11"/></svg>
-        <h3>You decide who sees it</h3>
-        <p>Your records stay private by default. You choose exactly who gets access, and you can take it away anytime.</p>
+        <h3>Consent-driven Privacy</h3>
+        <p>Through the ABDM network, you decide exactly which doctor or hospital gets access to your data, and for how long.</p>
       </div>
+
     </div>
   </div>
 </section>
